@@ -1,0 +1,48 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+* { box-sizing: border-box; }
+
+.App { max-width: 900px; margin: 2rem auto; padding: 1rem; }
+header h1 { margin: 0 0 1rem; }
+
+.card {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+button {
+  width: fit-content;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.result { margin-top: 1.5rem; }
+.warning { color: #b91c1c; }
+
+#progressbar-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 14px;
+}
+.progressbar { height: 100%; width: 0%; transition: width 0.2s linear; }
+
+.pg-container { margin: 0.75rem 0; }
+.pos { color: #065f46; font-weight: 600; }
+.neg { color: #b91c1c; font-weight: 600; }
