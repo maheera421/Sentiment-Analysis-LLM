@@ -94,8 +94,3 @@ The frontend will run on `http://localhost:3000`
 
 ### POST `/api/sentiment-analysis`
 Analyzes the sentiment of provided text.
-
-
----
-
-⭐ **If you found this project helpful, please give it a star!** ⭐
